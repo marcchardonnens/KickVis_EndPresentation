@@ -6,9 +6,10 @@ ul.nav-pills {
     position: fixed;
 }
 div.col-sm-9 div {
-    height: 250px;
+    min-height: 250px;
     font-size: 28px;
      background: white;
+    margin-bottom: 100px;
 }
 /*#section1 {color: #fff; background-color: #1E88E5;}*/
 /*#section2 {color: #fff; background-color: #673ab7;}*/
@@ -22,9 +23,19 @@ div.col-sm-9 div {
     }
 }
 
+img{
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
 .picCompare{
 
-    float: left;
-    width: 50%;
 
+    width: 49%;
+
+}
+
+
+.picFull{
+    width: 100%;
 }
