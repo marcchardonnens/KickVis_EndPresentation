@@ -39,3 +39,9 @@ img{
 .picFull{
     width: 100%;
 }
+
+p.picCompare
+{
+    float:left;
+    height: 300px;
+}
