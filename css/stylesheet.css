@@ -1,6 +1,35 @@
 body {
     position: relative;
+    /*background-image: url("../resources/cssAssets/scrollpage.jpg");*/
+    /*!*background-repeat: no-repeat;*!*/
+    /*background-size: 100%;*/
 }
+
+.dropdown-scroll
+{
+    height: auto;
+    max-height: 100px;
+    overflow-x: hidden;
+}
+
+p
+{
+    /*font-size: 14px;*/
+}
+
+.sec
+{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 40px;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+li.sec a{
+    padding: 5px;
+}
+
 ul.nav-pills {
     top: 20px;
     position: fixed;
