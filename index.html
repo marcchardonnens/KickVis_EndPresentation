@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Bootstrap Example</title>
+    <title>Kickvis</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/stylesheet.css">
+    <link rel="icon" href="resources/tabIcon.png">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
@@ -16,6 +17,9 @@
         <nav class="col-sm-3" id="myScrollspy">
             <ul class="nav nav-pills nav-stacked">
                 <li class="active">
+                    <a href="#Start">Start</a>
+                </li>
+                <li>
                     <a href="#FormenKomposition">Formen Komposition</a>
                     <ul class="nav">
                         <li class="sec"><a href="#Quadrat">| - Quadrat</a></li>
@@ -60,8 +64,8 @@
                 <li>
                     <a href="#Sketches">Sketches</a>
                     <ul class="nav">
-                        <li class="sec"><a href="#Sketch1">| - Sketch 1 - Hand</a></li>
-                        <li class="sec"><a href="#Sketch2">| - Sketch 2 - Küche</a></li>
+                        <li class="sec"><a href="#Sketch2">| - Sketch 1 - Hand</a></li>
+                        <li class="sec"><a href="#Sketch3">| - Sketch 2 - Küche</a></li>
                         <li class="sec"><a href="#Sketch3">| - Sketch 3 - Raumperspektive</a></li>
                         <li class="sec"><a href="#Sketch4">| - Sketch 4 - Kopf</a></li>
                     </ul>
@@ -97,24 +101,28 @@
             </ul>
         </nav>
         <div class="col-sm-9">
+            <div class="" id="Start">
+                <h1>Kickvis Dokumentation</h1>
+                <p>In dieser Webseite sind alle meine Arbeiten und Notizen aus dem Kickstart Visual Design Modul gesammelt.</p>
+            </div>
             <div id="FormenKomposition">
-                <h1>Formen Komposition (fern - nahh)</h1>
+                <h2>Formen Komposition (fern - nahh)</h2>
                 <div id="Quadrat">
-                    <h2>Quadrat</h2>
+                    <h3>Quadrat</h3>
                     <div>
                         <img src="resources/quadrat%20fern%20Artboard%201.png" class="picCompare"/>
                         <img src="resources/quadrat%20nahh%20Artboard%201.png" class="picCompare"/>
                     </div>
                 </div>
                 <div id="Dreieck">
-                    <h2>Dreieck</h2>
+                    <h3>Dreieck</h3>
                     <div>
                         <img src="resources/dreieck%20fern%20Artboard%201.png" class="picCompare"/>
                         <img src="resources/dreieck%20nah%20Artboard%201.png" class="picCompare"/>
                     </div>
                 </div>
                 <div id="Kreis">
-                    <h2>Kreis</h2>
+                    <h3>Kreis</h3>
                     <div>
                         <img src="resources/kreis%20fern%20Artboard%201.png" class="picCompare"/>
                         <img src="resources/kreis%20nahhArtboard%201.png" class="picCompare"/>
@@ -129,9 +137,9 @@
             </div>
 
             <div id="Schriften" >
-                <h1>Schriften</h1>
+                <h2>Schriften</h2>
                 <div id="FigurGrund">
-                    <h2>Figur Grund</h2>
+                    <h3>Figur Grund</h3>
                     <div>
                         <img src="resources/R.png" class="picFull"/>
                         <img src="resources/A.png" class="picFull"/>
@@ -150,7 +158,7 @@
                     </div>
                 </div>
                 <div id="SchriftVergleich">
-                    <h2>Schrift Vergleich</h2>
+                    <h3>Schrift Vergleich</h3>
                     <div>
                         <img src="resources/Skizze Schriftenvergleich.jpeg" class="picFull"/>
                         <p>
@@ -181,9 +189,9 @@
             </div>
 
             <div id="Farben">
-                <h1>Farben</h1>
+                <h2>Farben</h2>
                 <div id="Farbenlehre">
-                    <h2>Farbenlehre</h2>
+                    <h3>Farbenlehre</h3>
                     <div>
                         <img src="resources/farbe1.png" class="picFull"/>
                         <img src="resources/farbe2.png" class="picFull"/>
@@ -192,7 +200,7 @@
                     </div>
                 </div>
                 <div id="FarbenStimmung">
-                    <h2>Farben Stimmung</h2>
+                    <h3>Farben Stimmung</h3>
                     <div>
                         <img src="resources/balken1.png" class="picFull"/>
                         <img src="resources/balken2.png" class="picFull"/>
@@ -203,15 +211,15 @@
             </div>
 
             <div id="BildCollage">
-                <h1>Bild Collage</h1>
+                <h2>Bild Collage</h2>
                 <div id="MatchCut">
-                    <h2>Match Cut</h2>
+                    <h3>Match Cut</h3>
                     <div>
                         <img src="resources/match-cut.png" class="picFull">
                     </div>
                 </div>
                 <div id="Weissraum">
-                    <h2>Weissraum</h2>
+                    <h3>Weissraum</h3>
                     <div>
                         <img src="resources/weissraum.PNG" class="picFull">
                     </div>
@@ -219,7 +227,7 @@
             </div>
 
             <div id="EntwurfsProzesse">
-                <h1>Entwurfsprozesse</h1>
+                <h2>Entwurfsprozesse</h2>
                 <div>
                     <img src="resources/buchstaben%20(2).png" class="picFull"/>
                     <img src="resources/buchstaben%20(3).png" class="picFull"/>
@@ -233,7 +241,7 @@
             </div>
 
             <div id="BildImRaster">
-                <h1>Bild im Raster</h1>
+                <h2>Bild im Raster</h2>
                 <div>
                     <img src="resources/raster1.PNG" class="picFull"/>
                     <img src="resources/raster2.PNG" class="picFull"/>
@@ -251,14 +259,14 @@
             </div>
 
             <div id="Typographie">
-                <h1>Typographie</h1>
+                <h2>Typographie</h2>
                 <div id="BlockFlatter">
-                    <h2>Blocksatz oder Flattersatz</h2>
+                    <h3>Blocksatz oder Flattersatz</h3>
                     <img src="resources/typographie.png" class="picCompare">
                     <img src="resources/typographie2.png" class="picCompare">
                 </div>
                 <div id="Mikrotypo">
-                    <h2>Mikrotypo mit Stefan</h2>
+                    <h3>Mikrotypo mit Stefan</h3>
                     <p>
                         Meine notizen:<br>
                         Mikrotypografie bezeichnet die Gestaltung des
@@ -281,44 +289,44 @@
             </div>
 
             <div id="Sketches">
-                <h1>Sketches</h1>
+                <h2>Sketches</h2>
                 <div id="Sketch1">
-                    <h2>Sketch 1 - Hand</h2>
+                    <h3>Sketch 1 - Hand</h3>
                     <img src="resources/sketch1.png" class="picFull">
                 </div>
                 <div id="Sketch2">
-                    <h2>Sketch 2 - Küche</h2>
+                    <h3>Sketch 2 - Küche</h3>
                     <img src="resources/sketch21.png" class="picFull">
                     <img src="resources/sketch22.png" class="picFull">
                     <img src="resources/sketch23.png" class="picFull">
                 </div>
                 <div id="Sketch3">
-                    <h2>Sketch 3 - Fluchtpunkte</h2>
+                    <h3>Sketch 3 - Fluchtpunkte</h3>
                     <img src="resources/sketch3.png" class="picFull">
                 </div>
                 <div id="Sketch4">
-                    <h2>Sektch 4 - Kopf</h2>
+                    <h3>Sektch 4 - Kopf</h3>
                     <img src="resources/sketch4.png" class="picFull">
                 </div>
             </div>
 
             <div id="PlakatArbeit">
                 <div>
-                    <h1>Plakat Arbeit mit Dominic Burger</h1>
+                    <h2>Plakat Arbeit mit Dominic Burger</h2>
                     <p>
                         Diese Arbeit habe ich zusammen mit Dominic gemacht. Wir haben uns beide je ein Plakat aus
                         der Austellung der 100 besten Plakate in Luzern ausgesucht, sie analysiert und dann verglichen.
                     </p>
                     <div>
-                        <h2>Industrie Plakate</h2>
+                        <h3>Industrie Plakate</h3>
                         <img src="resources/Plakat_Dominic.png" class="picFull">
                     </div>
                     <div>
-                        <h2>Grunewalder Schnaps</h2>
+                        <h3>Grunewalder Schnaps</h3>
                         <img src="resources/Plakat_Marc.png">
                     </div>
                     <div>
-                        <h2>Vergleich</h2>
+                        <h3>Vergleich</h3>
                         <img src="resources/Plakat_dominic_klein.png" class="picCompare">
                         <img src="resources/Plakat_marc_klein.png" class="picCompare">
                         <p class="picCompare">
@@ -341,14 +349,14 @@
 
 
             <div id="Vorträge">
-                <h1>Designer Vorträge</h1>
+                <h2>Designer Vorträge</h2>
                 <p>
                     Hier sind alle Vorträge der Designer aufgelistet und was ich dazu gesammelt habe. Die Vorträge sind
                     hier nicht nochmals verlinkt, da sie ja alle auf dem Ilias sind.
                 </p>
 
                 <div id="AdrianFruttiger">
-                    <h2>Adrian Frutiger</h2>
+                    <h3>Adrian Frutiger</h3>
                     <div>
                         <img src="resources/designerVortraegeZusfassungen/Adr1.PNG" class="picCompare"/>
                         <img src="resources/designerVortraegeZusfassungen/Adr2.PNG" class="picCompare"/>
@@ -361,7 +369,7 @@
                     </div>
                 </div>
                 <div id="AprilGreiman">
-                    <h2>April Greiman</h2>
+                    <h3>April Greiman</h3>
                     <div>
                         <img src="resources/designerVortraegeZusfassungen/AprGei1.PNG" class="picCompare"/>
                         <img src="resources/designerVortraegeZusfassungen/AprGei2.PNG" class="picCompare"/>
@@ -381,7 +389,7 @@
                     </div>
                 </div>
                 <div id="CaseyReas">
-                    <h2>Casey Reas</h2>
+                    <h3>Casey Reas</h3>
                     <div>
                         <img src="resources/designerVortraegeZusfassungen/CasRe1.PNG" class="picCompare"/>
                         <img src="resources/designerVortraegeZusfassungen/CasRe2.PNG" class="picCompare"/>
@@ -396,7 +404,7 @@
                     </div>
                 </div>
                 <div id="DavidCarson">
-                    <h2>David Carson</h2>
+                    <h3>David Carson</h3>
                     <div>
                         <img src="resources/designerVortraegeZusfassungen/DavCar1.PNG" class="picCompare"/>
                         <img src="resources/designerVortraegeZusfassungen/DavCar2.PNG" class="picCompare"/>
@@ -410,7 +418,7 @@
                     </div>
                 </div>
                 <div id="DIAStudio">
-                    <h2>DIA-Studio</h2>
+                    <h3>DIA-Studio</h3>
                     <div>
                         <img src="resources/designerVortraegeZusfassungen/DiaStu1.PNG" class="picCompare"/>
                         <img src="resources/designerVortraegeZusfassungen/DiaStu2.PNG" class="picCompare"/>
@@ -422,7 +430,7 @@
                     </div>
                 </div>
                 <div id="WolfgangWeingart">
-                    <h2>Wolfgang Weingart</h2>
+                    <h3>Wolfgang Weingart</h3>
                     <div>
                         <img src="resources/designerVortraegeZusfassungen/WolfWei1.PNG" class="picCompare"/>
                         <img src="resources/designerVortraegeZusfassungen/WolfWei2.PNG" class="picCompare"/>
@@ -438,7 +446,7 @@
                     </div>
                 </div>
                 <div id="JohnsonKingston">
-                    <h2>Johnston Kingston</h2>
+                    <h3>Johnston Kingston</h3>
                     <div>
                         <img src="resources/designerVortraegeZusfassungen/JohnKi1.PNG" class="picCompare"/>
                         <img src="resources/designerVortraegeZusfassungen/JohnKi2.PNG" class="picCompare"/>
@@ -454,7 +462,7 @@
                     </div>
                 </div>
                 <div id="JoostGrootens">
-                    <h2>Joost Grootens</h2>
+                    <h3>Joost Grootens</h3>
                     <div>
                         <img src="resources/designerVortraegeZusfassungen/JooGro1.PNG" class="picCompare"/>
                         <img src="resources/designerVortraegeZusfassungen/JooGro2.PNG" class="picCompare"/>
@@ -469,7 +477,7 @@
                     </div>
                 </div>
                 <div id="OtlAicher">
-                    <h2>Otto "Otl" Aicher</h2>
+                    <h3>Otto "Otl" Aicher</h3>
                     <div>
                         <img src="resources/designerVortraegeZusfassungen/OttoAi1.PNG" class="picCompare"/>
                         <img src="resources/designerVortraegeZusfassungen/OttoAi2.PNG" class="picCompare"/>
@@ -482,7 +490,7 @@
                     </div>
                 </div>
                 <div id="PaulRand">
-                    <h2>Paul Rand</h2>
+                    <h3>Paul Rand</h3>
                     <div>
                         <img src="resources/designerVortraegeZusfassungen/PaRa1.PNG" class="picCompare"/>
                         <img src="resources/designerVortraegeZusfassungen/PaRa2.PNG" class="picCompare"/>
@@ -497,7 +505,7 @@
                     </div>
                 </div>
                 <div id="PaulaScher">
-                    <h2>Paula Scher</h2>
+                    <h3>Paula Scher</h3>
                     <div>
                         <img src="resources/designerVortraegeZusfassungen/Paula1.PNG" class="picCompare"/>
                         <img src="resources/designerVortraegeZusfassungen/Paula2.PNG" class="picCompare"/>
@@ -509,7 +517,7 @@
                     </div>
                 </div>
                 <div id="StudioFeixen">
-                    <h2>Studio Feixen</h2>
+                    <h3>Studio Feixen</h3>
                     <div>
                         <img src="resources/designerVortraegeZusfassungen/StuFei1.PNG" class="picCompare"/>
                         <img src="resources/designerVortraegeZusfassungen/StuFei2.PNG" class="picCompare"/>
@@ -523,7 +531,7 @@
                     </div>
                 </div>
                 <div id="JosephBrockmann">
-                    <h2>Joseph Müller-Brockmann</h2>
+                    <h3>Joseph Müller-Brockmann</h3>
                     <div>
                         <img src="resources/designerVortraegeZusfassungen/JoMue1.PNG" class="picCompare"/>
                         <img src="resources/designerVortraegeZusfassungen/JoMue2.PNG" class="picCompare"/>
@@ -539,7 +547,7 @@
                     </div>
                 </div>
                 <div id="SaulBass">
-                    <h2>Saul Bass</h2>
+                    <h3>Saul Bass</h3>
                     <div>
                         <img src="resources/designerVortraegeZusfassungen/SaBa1.PNG" class="picCompare"/>
                         <img src="resources/designerVortraegeZusfassungen/SaBa2.PNG" class="picCompare"/>
@@ -556,7 +564,7 @@
                     </div>
                 </div>
                 <div id="StefanSagmeister">
-                    <h2>Stefan Sagmeister</h2>
+                    <h3>Stefan Sagmeister</h3>
                     <div>
                         <img src="resources/designerVortraegeZusfassungen/SteSa1.PNG" class="picCompare"/>
                         <img src="resources/designerVortraegeZusfassungen/SteSa2.PNG" class="picCompare"/>
@@ -570,7 +578,7 @@
                     </div>
                 </div>
                 <div id="TheRodina">
-                    <h2>The Rodina</h2>
+                    <h3>The Rodina</h3>
                     <div>
                         <img src="resources/designerVortraegeZusfassungen/Rodina1.PNG" class="picCompare"/>
                         <img src="resources/designerVortraegeZusfassungen/Rodina2.PNG" class="picCompare"/>
