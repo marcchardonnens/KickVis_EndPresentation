@@ -5,6 +5,11 @@ body {
     /*background-size: 100%;*/
 }
 
+ul
+{
+    font-size: 12px;
+}
+
 .dropdown-scroll
 {
     height: auto;
